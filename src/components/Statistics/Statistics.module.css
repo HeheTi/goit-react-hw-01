@@ -1,0 +1,42 @@
+.statistics {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: transform 250ms ease-in-out;
+}
+
+.statistics:hover,
+.statistics:focus {
+  transform: scale3d(0.95, 0.95, 0.95);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.statList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.statListItem {
+  padding: 10px;
+  flex-basis: calc(100% / 5);
+}
+
+.statListLabel {
+  display: block;
+  margin-bottom: 5px;
+}
